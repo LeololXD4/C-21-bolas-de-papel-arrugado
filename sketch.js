@@ -25,8 +25,8 @@ function setup() {
 	World.add(world,ball);
 
 	groundObj=new ground(width/2,400,width,10);
-	leftSide = new ground(1000,600,20,120);
-	rightSide = new ground(1250,600,20,120);
+	leftSide = new ground(1000,300,20,120);
+	rightSide = new ground(1250,300,20,120);
 
 	Engine.run(engine);
   
