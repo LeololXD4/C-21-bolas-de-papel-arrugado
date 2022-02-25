@@ -18,7 +18,7 @@ function setup() {
 		isStatic:false,
 		restitution:0.3,
 		friction:0,
-		density:1.2
+		density:0.2
 	}
 
 	ball = Bodies.circle(260,100,radius/2,ball_options);
