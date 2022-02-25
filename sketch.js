@@ -24,7 +24,7 @@ function setup() {
 	ball = Bodies.circle(260,100,radius/2,ball_options);
 	World.add(world,ball);
 
-	groundObj=new ground(width/2,400,width,10);
+	groundObj=new ground(width/2,400,width,20);
 	leftSide = new ground(1000,300,20,120);
 	rightSide = new ground(1250,300,20,120);
 
